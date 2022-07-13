@@ -9,6 +9,10 @@ plugins {
 	kotlin("plugin.jpa") version "1.6.21"
 }
 
+tasks.jar {
+	enabled = false
+}
+
 group = "com.albatros"
 version = "1.0"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
