@@ -14,6 +14,6 @@ fun main(args: Array<String>) {
 
 @RestController
 class Controller {
-	@GetMapping("/api/version")
-	fun getApiVersion() = "1.0.0"
+	@GetMapping("/api")
+	fun getApiVersion() = "1.0"
 }

@@ -1,1 +1,1 @@
-rootProject.name = "diraserver"
+rootProject.name = "kserver"
