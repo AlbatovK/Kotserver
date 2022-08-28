@@ -2,3 +2,6 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
+
+app-info:
+  version: '1.0.0'
