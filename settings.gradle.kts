@@ -1,1 +1,1 @@
-rootProject.name = "kserver"
+rootProject.name = "kotserver"
