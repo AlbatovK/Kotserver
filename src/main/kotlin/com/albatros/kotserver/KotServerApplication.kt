@@ -1,4 +1,4 @@
-package com.albatros.diraserver
+package com.albatros.kotserver
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
 @SpringBootApplication
-class DiraserverApplication
+class KotServerApplication
 
 fun main(args: Array<String>) {
-	runApplication<DiraserverApplication>(*args)
+	runApplication<KotServerApplication>(*args)
 }
 
 @RestController
