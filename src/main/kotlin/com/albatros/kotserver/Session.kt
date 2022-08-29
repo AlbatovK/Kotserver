@@ -1,9 +1,10 @@
 package com.albatros.kotserver
 
 import java.util.UUID
+import kotlin.math.abs
 
 data class Session(
-    val id: Long = UUID.randomUUID().mostSignificantBits % modValue,
+    val id: Long = abs(UUID.randomUUID().mostSignificantBits % modValue),
     var hasStarted: Boolean = false,
     val eventPool: MutableList<Event> = mutableListOf(),
 ) {
