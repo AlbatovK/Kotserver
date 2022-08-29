@@ -10,7 +10,7 @@ data class Session(
 ) {
 
     companion object {
-        const val modValue = 1_000_000_000
+        const val modValue = 1_000_000_000_000
     }
 
     val lastEventId: Long
