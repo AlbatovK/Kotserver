@@ -1,4 +1,4 @@
-package com.albatros.kotserver
+package com.albatros.kotserver.domain
 
 @Suppress("unused")
 sealed class Event(val posId: Long, val eventCode: Long) {

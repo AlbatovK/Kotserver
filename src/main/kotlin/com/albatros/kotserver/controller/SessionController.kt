@@ -1,5 +1,7 @@
-package com.albatros.kotserver
+package com.albatros.kotserver.controller
 
+import com.albatros.kotserver.domain.Event
+import com.albatros.kotserver.domain.Session
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping

@@ -1,4 +1,4 @@
-package com.albatros.kotserver
+package com.albatros.kotserver.domain
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.boot.context.properties.ConstructorBinding
