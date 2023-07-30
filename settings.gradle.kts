@@ -1,1 +1,1 @@
-rootProject.name = "kotserver"
+rootProject.name = "Kotserver"
